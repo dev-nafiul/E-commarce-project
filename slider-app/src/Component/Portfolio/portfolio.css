@@ -1,0 +1,30 @@
+.btn{
+    margin: 10px;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+.food_img{
+    width: 30%;
+    border-radius: 8px;
+}
+.food_card{
+    display: flex !important;
+    margin: 20px;
+    width: 33%;
+    flex-wrap: wrap;
+    box-shadow: 2px 5px 5px rgba(0,0,0,.5);
+    padding: 15px;
+    border-radius: 8px;
+}
+.prise{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food_item{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

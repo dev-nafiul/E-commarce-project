@@ -1,0 +1,46 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Poppins';
+}
+
+ul li{
+  list-style: none;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+ 
+}
+a:hover {
+  color:#ffc107;
+  transition: all 0.2s;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8e367;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+

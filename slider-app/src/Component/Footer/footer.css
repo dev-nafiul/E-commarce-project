@@ -1,0 +1,17 @@
+.f_heading{
+    text-align: center;
+}
+.footer_same{
+   display: flex;
+   align-items: start;
+   flex-direction: column;
+   padding: 50px 0;
+}
+/* .main_footer{
+    justify-content: center;
+    padding: 50px 0;
+    margin: auto;
+} */
+.sub_main{
+    display: flex;
+}

@@ -1,0 +1,80 @@
+.product_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.product_sec_headingimg img{
+    position: absolute;
+    left: 15%;
+    margin-top: -25px;
+}
+
+
+/* header */
+.product_header-list ul li {
+    list-style: none;
+    font-size: 26px;
+    line-height: 52px;
+}
+.product_header-list ul li:hover {
+    color: #fe956f;
+}
+
+.product_left{
+    display: flex;
+    height: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.product_room{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: start;
+}
+.product_room h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+.product_left img{
+    width: 25%;
+    transform: rotate(-10deg);
+}
+
+.product_list{
+    position: relative;
+    overflow-y: scroll;
+    height: 20rem;
+}
+
+.product_list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #1f8395; /* Background color of the thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+  }
+  
+  

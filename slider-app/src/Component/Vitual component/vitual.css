@@ -1,0 +1,23 @@
+.main_vitual{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+.V-image{
+    width: 150px;
+}
+.wapper{
+    width: 32rem;
+}
+.v_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.v_details{
+    display: block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    width: 20rem;
+}
